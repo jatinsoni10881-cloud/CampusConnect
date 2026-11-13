@@ -1,6 +1,13 @@
+
 config/db.php
 test_db.php
 .env
 .env.*
+*.log
+*.bak
+*.backup
+*.old
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
