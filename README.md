@@ -34,16 +34,17 @@ CampusConnect is a web-based application developed using PHP and MySQL to manage
 ## Installation Steps
 
 1. Download or clone this repository.
-2. Copy the project folder into XAMPP's htdocs directory.
+2. Copy the project folder into XAMPP's `htdocs` directory.
 3. Open phpMyAdmin or MySQL Workbench.
-4. Create a database named campus_event_management.
-5. Import database/campus_event_management.sql.
-6. Open the config folder.
-7. Copy db.example.php and rename the copy to db.php.
-8. Open db.php and enter your local MySQL username and password.
-9. Start Apache in XAMPP.
-10. Start your MySQL Server.
-11. Open the following URL:
+4. Create a database named `campus_event_management`.
+5. Import the `database/campus_event_management.sql` file into the database.
+6. Open the project folder and create a new folder named `config`.
+7. Open the `database` folder and copy the `db.example.php` file.
+8. Paste the copied file inside the newly created `config` folder and rename it to `db.php`.
+9. Open `config/db.php` and enter your local MySQL database name, username and password.
+10. Start Apache in XAMPP.
+11. Start your MySQL Server.
+12. Open the following URL in your browser:
 
 http://localhost/CampusEventManagement/
 
